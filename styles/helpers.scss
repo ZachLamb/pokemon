@@ -1,0 +1,93 @@
+//helper classes
+
+.flex {
+	display : -webkit-box;
+	display : -ms-flexbox;
+	display : flex;
+}
+
+.flex-row {
+	display               : -webkit-box;
+	display               : -ms-flexbox;
+	display               : flex;
+	-webkit-box-orient    : horizontal;
+	-webkit-box-direction : normal;
+	-ms-flex-direction    : row;
+	flex-direction        : row;
+}
+
+.flex-col {
+	display               : -webkit-box;
+	display               : -ms-flexbox;
+	display               : flex;
+	-webkit-box-orient    : vertical;
+	-webkit-box-direction : normal;
+	-ms-flex-direction    : column;
+	flex-direction        : column;
+}
+
+.flex-center-main {
+	-webkit-box-pack : center;
+	-ms-flex-pack    : center;
+	justify-content  : center;
+}
+
+.flex-center-cross {
+	-webkit-box-align  : center;
+	-ms-flex-align     : center;
+	-ms-grid-row-align : center;
+	align-items        : center;
+}
+
+/* Cross axis */
+.flex-cross-start {
+	-webkit-box-align  : start;
+	-ms-flex-align     : start;
+	-ms-grid-row-align : flex-start;
+	align-items        : flex-start;
+}
+
+.flex-cross-end {
+	-webkit-box-align  : end;
+	-ms-flex-align     : end;
+	-ms-grid-row-align : flex-end;
+	align-items        : flex-end;
+}
+
+.flex-cross-stretch {
+	-webkit-box-align  : stretch;
+	-ms-flex-align     : stretch;
+	-ms-grid-row-align : stretch;
+	align-items        : stretch;
+}
+
+.flex-cross-baseline {
+	-webkit-box-align  : baseline;
+	-ms-flex-align     : baseline;
+	-ms-grid-row-align : baseline;
+	align-items        : baseline;
+}
+
+/* Main axis */
+.flex-main-start {
+	-webkit-box-pack : start;
+	-ms-flex-pack    : start;
+	justify-content  : flex-start;
+}
+
+.flex-main-end {
+	-webkit-box-pack : end;
+	-ms-flex-pack    : end;
+	justify-content  : flex-end;
+}
+
+.flex-main-justify {
+	-webkit-box-pack : justify;
+	-ms-flex-pack    : justify;
+	justify-content  : space-between;
+}
+
+.flex-main-space {
+	-ms-flex-pack   : distribute;
+	justify-content : space-around;
+}

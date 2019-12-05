@@ -1,0 +1,17 @@
+.checkbox {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.pokemon-detail-page {
+    align-items: center;
+    justify-content: center;
+}
+.poke-map, .poke-dets {
+    flex-basis: 100%;
+}
+
+.pokemon-text-details {
+    padding: 3%;
+}
