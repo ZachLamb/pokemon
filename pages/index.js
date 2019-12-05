@@ -28,8 +28,8 @@ const projects = [
 const Index = () => (
   <div className="main-page flex">
     <div className="flex-row flex-main-space ">
-      {projects.map(project => {
-        return <Card photo={project.photo} name={project.text} />;
+      {projects.map((project,i) => {
+        return <Card key={i} photo={project.photo} name={project.text} />;
       })}
     </div>
   </div>
