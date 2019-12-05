@@ -2,36 +2,36 @@
   "devFiles": [],
   "pages": {
     "/": [
-      "static/runtime/webpack-2138718a7e216a51bd7f.js",
-      "static/css/commons.83174bb8.chunk.css",
-      "static/chunks/commons.30b11e75837bc315e093.js",
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/css/commons.43750710.chunk.css",
+      "static/chunks/commons.3716abc8731660fd1d87.js",
       "static/runtime/main-8bedfe204fbe9606c247.js"
     ],
     "/_app": [
-      "static/runtime/webpack-2138718a7e216a51bd7f.js",
-      "static/css/commons.83174bb8.chunk.css",
-      "static/chunks/commons.30b11e75837bc315e093.js",
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/css/commons.43750710.chunk.css",
+      "static/chunks/commons.3716abc8731660fd1d87.js",
       "static/runtime/main-8bedfe204fbe9606c247.js"
     ],
     "/_error": [
-      "static/runtime/webpack-2138718a7e216a51bd7f.js",
-      "static/css/commons.83174bb8.chunk.css",
-      "static/chunks/commons.30b11e75837bc315e093.js",
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/css/commons.43750710.chunk.css",
+      "static/chunks/commons.3716abc8731660fd1d87.js",
       "static/runtime/main-8bedfe204fbe9606c247.js"
     ],
     "/_polyfills": [
       "static/runtime/polyfills-e16a3c6fbdef155ac22e.js"
     ],
     "/index": [
-      "static/runtime/webpack-2138718a7e216a51bd7f.js",
-      "static/css/commons.83174bb8.chunk.css",
-      "static/chunks/commons.30b11e75837bc315e093.js",
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/css/commons.43750710.chunk.css",
+      "static/chunks/commons.3716abc8731660fd1d87.js",
       "static/runtime/main-8bedfe204fbe9606c247.js"
     ],
     "/pokemondetail": [
-      "static/runtime/webpack-2138718a7e216a51bd7f.js",
-      "static/css/commons.83174bb8.chunk.css",
-      "static/chunks/commons.30b11e75837bc315e093.js",
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/css/commons.43750710.chunk.css",
+      "static/chunks/commons.3716abc8731660fd1d87.js",
       "static/runtime/main-8bedfe204fbe9606c247.js"
     ]
   }

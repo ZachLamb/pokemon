@@ -2,37 +2,54 @@ import Card from "../components/card";
 
 import "../styles/index.scss";
 
-const projects = [
+import { useQuery } from '@apollo/react-hooks';
+
+import POKEMON_QUERY from '../graphql/pokemon.query';
+
+const pokemon = [
   {
     photo: "/bsaur.png",
-    text: "first project"
+    text: "first pokemon"
   },
   {
     photo: "/bsaur.png",
-    text: "second project"
+    text: "second pokemon"
   },
   {
     photo: "/bsaur.png",
-    text: "third project"
+    text: "third pokemon"
   },
   {
     photo: "/bsaur.png",
-    text: "first project"
+    text: "four pokemon"
   },
   {
     photo: "/bsaur.png",
-    text: "second project"
+    text: "five pokemon"
   }
 ];
 
-const Index = () => (
+const Index = () => {
+
+  //query hook
+  const {data, loading, error} = useQuery(POKEMON_QUERY);
+
+  if (loading) {
+    return <p>Loading...</p>;
+  }
+
+  if (error) {
+    console.warn("Error from GraphQL: " + error)
+  }
+return (
   <div className="main-page flex">
     <div className="flex-row flex-main-space ">
-      {projects.map((project,i) => {
+      {pokemon.map((project,i) => {
         return <Card key={i} photo={project.photo} name={project.text} />;
       })}
     </div>
   </div>
-);
+)
+    };
 
 export default Index;
